@@ -14,10 +14,10 @@ public class TestFolderCreationOnBuild : MonoBehaviour
             Debug.LogAssertion("Folder created at " + Application.dataPath);
 
         }
-        else
-        {
-            Debug.LogAssertion("Folder already exists in " + Path.GetDirectoryName(Application.dataPath + "/Game Decks"));
-        }
+        // else
+        // {
+        //     Debug.LogAssertion("Folder already exists in " + Path.GetDirectoryName(Application.dataPath + "/Game Decks"));
+        // }
     }
 
     // Update is called once per frame
